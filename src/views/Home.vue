@@ -1,9 +1,5 @@
 <template>
-  <div class="home">
-    <Navbar />
-    <img alt="Vue logo" src="../assets/logo.png">
-    <h2>Home component</h2>    
-  </div>
+  <h1>aeae</h1>
 </template>
 
 <script>

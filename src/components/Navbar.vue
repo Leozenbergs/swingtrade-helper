@@ -19,7 +19,7 @@
           </v-list-tile-avatar>
 
           <v-list-tile-content>
-            <v-list-tile-title class="c_white">{{navbar.username}}</v-list-tile-title>
+            <v-list-tile-title class="white--text">{{navbar.username}}</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
@@ -38,7 +38,7 @@
           </v-list-tile-action> -->
 
           <v-list-tile-content >
-            <v-list-tile-title class="c_white">{{ item.name }}</v-list-tile-title>
+            <v-list-tile-title class="white--text">{{ item.name }}</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
@@ -49,6 +49,7 @@
 
 <script>
   export default {
+    name: "Navbar",
     data: () => ({
       page:{
         title: "Swingtrade Helper"
@@ -71,8 +72,5 @@
   }
   .bg_white{
     background: white !important;
-  }
-  .c_white{
-    color: white !important;
   }
 </style>
